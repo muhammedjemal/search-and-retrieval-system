@@ -52,5 +52,5 @@ export function fetchSearchResult(query) {
   const processedCorpus = documents.map((doc) => doc.tokens);
   const index = createIndex(processedCorpus);
 
-  return rankedDocs;
+  return  rankedDocs;
 }
